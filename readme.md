@@ -21,4 +21,5 @@ pho artisan key:generate
 ```
 php artisan migrate
 ```
+![dashboard](https://user-images.githubusercontent.com/30378656/46560329-965bb200-c8f3-11e8-9fa1-7b691ad8bc8c.jpg)
 
