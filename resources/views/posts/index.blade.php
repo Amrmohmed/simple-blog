@@ -10,7 +10,7 @@
             @foreach($posts as $post)
             <!-- Blog Post -->
             <div class="card mb-4">
-                <img class="img-responsive" src="{{ asset('images/posts/'.$post->photo) }}" alt="Card image cap">
+                <img class="img-responsive" src="{{ asset(''.$post->photo) }}" alt="Card image cap">
                 <div class="card-body">
                     <h2 class="card-title"> <a href="/posts/{{$post->slug}}">{{ $post->title }}</a></h2>
                     <div class="meta">
