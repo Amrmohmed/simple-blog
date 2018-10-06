@@ -6,7 +6,7 @@
     <div class="row">
         <div class="col-md-8 posts">
             <div style="margin-bottom: 20px">
-                <img src="{{ asset('images/posts/'.$post->photo) }}" class="img-responsive" />
+                <img src="{{ asset(''.$post->photo) }}" class="img-responsive" />
             </div>
             {!! $post->body !!}
 
